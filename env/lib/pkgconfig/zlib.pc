@@ -1,0 +1,13 @@
+prefix=/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env
+exec_prefix=/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env
+libdir=/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env/lib
+sharedlibdir=/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env/lib
+includedir=/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

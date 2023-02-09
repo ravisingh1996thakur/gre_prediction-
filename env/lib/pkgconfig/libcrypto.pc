@@ -1,0 +1,13 @@
+prefix=/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.0.2u
+Requires: 
+Libs: -L${libdir} -lcrypto
+Libs.private: -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env/lib -L/Users/ravisingh/Downloads/MachineLearningModelToAzure-master/MLForCloudDeployment_Azure/env/lib 
+Cflags: -I${includedir} 

@@ -1,0 +1,240 @@
+{
+  "build": "py37hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "typing_extensions >=3.6.4",
+    "zipp >=0.5"
+  ],
+  "extracted_package_dir": "/Users/ravisingh/opt/anaconda3/pkgs/importlib-metadata-4.11.3-py37hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/LICENSE",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/METADATA",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/RECORD",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/WHEEL",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/importlib_metadata/__init__.py",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_adapters.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_collections.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_functools.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_itertools.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_meta.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/__pycache__/_text.cpython-37.pyc",
+    "lib/python3.7/site-packages/importlib_metadata/_adapters.py",
+    "lib/python3.7/site-packages/importlib_metadata/_collections.py",
+    "lib/python3.7/site-packages/importlib_metadata/_compat.py",
+    "lib/python3.7/site-packages/importlib_metadata/_functools.py",
+    "lib/python3.7/site-packages/importlib_metadata/_itertools.py",
+    "lib/python3.7/site-packages/importlib_metadata/_meta.py",
+    "lib/python3.7/site-packages/importlib_metadata/_text.py",
+    "lib/python3.7/site-packages/importlib_metadata/py.typed"
+  ],
+  "fn": "importlib-metadata-4.11.3-py37hecd8cb5_0.conda",
+  "legacy_bz2_md5": "595a9a27dda4c3f84d26b25c4892c7ef",
+  "legacy_bz2_size": 40886,
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/Users/ravisingh/opt/anaconda3/pkgs/importlib-metadata-4.11.3-py37hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "293a31faa096d9ee5384fa2316452b75",
+  "name": "importlib-metadata",
+  "package_tarball_full_path": "/Users/ravisingh/opt/anaconda3/pkgs/importlib-metadata-4.11.3-py37hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c0d7ba740721989d55bd507c0fda1373e8071da742b9a48101ebf7eac60433a5",
+        "sha256_in_prefix": "c0d7ba740721989d55bd507c0fda1373e8071da742b9a48101ebf7eac60433a5",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "40337c6c61bdf2e20b88b548a010c12fba9fd72e3455bfcfbe9d5fc4f26d992d",
+        "sha256_in_prefix": "40337c6c61bdf2e20b88b548a010c12fba9fd72e3455bfcfbe9d5fc4f26d992d",
+        "size_in_bytes": 3997
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "78c26725c2f820242f3705fbb41e5f98286909a4d68e2a4a826018a7437ee1da",
+        "sha256_in_prefix": "78c26725c2f820242f3705fbb41e5f98286909a4d68e2a4a826018a7437ee1da",
+        "size_in_bytes": 2012
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "66750c6b96afd09b1ec471e8081adc6eaec8f67619a5dcf2fe020d1751e10f2a",
+        "sha256_in_prefix": "66750c6b96afd09b1ec471e8081adc6eaec8f67619a5dcf2fe020d1751e10f2a",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata-4.11.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
+        "sha256_in_prefix": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ed58c9f67b613e536b2ff4eb8874624f94daf9906c0675eb66aeb9a517c6348b",
+        "sha256_in_prefix": "ed58c9f67b613e536b2ff4eb8874624f94daf9906c0675eb66aeb9a517c6348b",
+        "size_in_bytes": 30889
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "44ba58eb67137f332ed5850012b54d4c027ff4c39ef36e6b6c1cccc2abdf5df4",
+        "sha256_in_prefix": "44ba58eb67137f332ed5850012b54d4c027ff4c39ef36e6b6c1cccc2abdf5df4",
+        "size_in_bytes": 37614
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_adapters.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "906bb00f0f5257cff26866a6aa1eae8426c509a70d6d67c4982d5fa5b8ace4b8",
+        "sha256_in_prefix": "906bb00f0f5257cff26866a6aa1eae8426c509a70d6d67c4982d5fa5b8ace4b8",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_collections.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c4c98e3af4510c40da4469d3fa321cecd882380c6c6a07a26a157f5178d68ef",
+        "sha256_in_prefix": "3c4c98e3af4510c40da4469d3fa321cecd882380c6c6a07a26a157f5178d68ef",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccdf17a63bdb02b1e1ebab7299a68c5a79fc1bf4657b9665647e93085b17632e",
+        "sha256_in_prefix": "ccdf17a63bdb02b1e1ebab7299a68c5a79fc1bf4657b9665647e93085b17632e",
+        "size_in_bytes": 1961
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_functools.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fd1030f5dc0f245f1d53e574fc99f8c33f2e3c179629ef5fc2229efc4d3d271",
+        "sha256_in_prefix": "7fd1030f5dc0f245f1d53e574fc99f8c33f2e3c179629ef5fc2229efc4d3d271",
+        "size_in_bytes": 3078
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_itertools.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "539c7578122bf2b0feb2db9f145bba26a18258ccc13edaeac25c216d33829b0b",
+        "sha256_in_prefix": "539c7578122bf2b0feb2db9f145bba26a18258ccc13edaeac25c216d33829b0b",
+        "size_in_bytes": 1978
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_meta.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "972e44307b587aeef0288dd7559eff0573e2081fa60b3bfea4ed420814164f29",
+        "sha256_in_prefix": "972e44307b587aeef0288dd7559eff0573e2081fa60b3bfea4ed420814164f29",
+        "size_in_bytes": 2311
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/__pycache__/_text.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1fb497ed6756d3f24a3985402f2bae259f262d1ca24057317f1d5dbaddfb923",
+        "sha256_in_prefix": "f1fb497ed6756d3f24a3985402f2bae259f262d1ca24057317f1d5dbaddfb923",
+        "size_in_bytes": 3033
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_adapters.py",
+        "path_type": "hardlink",
+        "sha256": "07a7c28b9fbc98b543154663de4ac8e67028fa62a9d5d1ffa886afc88c85ac9b",
+        "sha256_in_prefix": "07a7c28b9fbc98b543154663de4ac8e67028fa62a9d5d1ffa886afc88c85ac9b",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_collections.py",
+        "path_type": "hardlink",
+        "sha256": "089d0e4c21c88d6034648552e2fa0e440b27d91e11d9c40112d3ec6442690126",
+        "sha256_in_prefix": "089d0e4c21c88d6034648552e2fa0e440b27d91e11d9c40112d3ec6442690126",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "114d9708504f141cae23439fe97900b8161bcea4b28f0c30c2a9ac2b871c9dad",
+        "sha256_in_prefix": "114d9708504f141cae23439fe97900b8161bcea4b28f0c30c2a9ac2b871c9dad",
+        "size_in_bytes": 1826
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_functools.py",
+        "path_type": "hardlink",
+        "sha256": "3ec636fb8aeb297e1155e442d681a9d65075a660bd78a37cf3f7fe6c3f6e3a80",
+        "sha256_in_prefix": "3ec636fb8aeb297e1155e442d681a9d65075a660bd78a37cf3f7fe6c3f6e3a80",
+        "size_in_bytes": 2895
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_itertools.py",
+        "path_type": "hardlink",
+        "sha256": "72faffdaff0145bc5c225e71e6575fa9d1e3848f188bcb3cca4e741bf9e6ea34",
+        "sha256_in_prefix": "72faffdaff0145bc5c225e71e6575fa9d1e3848f188bcb3cca4e741bf9e6ea34",
+        "size_in_bytes": 2068
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_meta.py",
+        "path_type": "hardlink",
+        "sha256": "fc5e3c1eefe317191f296cf9c1c612f2f3b6dea13281b55d17dafeeaa87e8631",
+        "sha256_in_prefix": "fc5e3c1eefe317191f296cf9c1c612f2f3b6dea13281b55d17dafeeaa87e8631",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/_text.py",
+        "path_type": "hardlink",
+        "sha256": "1c2b0592c66924b7933f734493f9e0ac079755146d4ebb7287d78e001a113f80",
+        "sha256_in_prefix": "1c2b0592c66924b7933f734493f9e0ac079755146d4ebb7287d78e001a113f80",
+        "size_in_bytes": 2166
+      },
+      {
+        "_path": "lib/python3.7/site-packages/importlib_metadata/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8be1143ce1f2e96adbc0feed37150399b7d078eb23940f60540e00f7feee9464",
+  "size": 41108,
+  "subdir": "osx-64",
+  "timestamp": 1648562484538,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/importlib-metadata-4.11.3-py37hecd8cb5_0.conda",
+  "version": "4.11.3"
+}
