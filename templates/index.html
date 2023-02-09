@@ -4,24 +4,79 @@
 
 <title>Search Page</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<style>
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        display: inline-block;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 5px #ccc;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 5px #ccc;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
 {% endblock %}
 
 {% block body %}
 <div class="content">
-    <h1 style="text-align: center">JIGYASHA I LOVE AND HAPPY CHOCALATE DAY BABY   </h1>
+    <h1>JIGYASHA I LOVE AND HAPPY CHOCALATE DAY BABY</h1>
 
     <div class="form">
         <form action="/predict" method="POST">
-            <input type="number" name="JIGI I LOVE YOU " id="gre_score" placeholder="GRE Score">
+            <input type="number" name="gre_score" id="gre_score" placeholder="GRE Score">
             <input type="number" name="toefl_score" id="toefl_score" placeholder="TOEFL Score">
             <input type="number" name="university_rating" id="university_rating" placeholder="University Rating">
             <input type="number" name="sop" id="sop" placeholder="SOP Score">
             <input type="number" name="lor" id="lor" placeholder="LOR Score">
-            <input type="number" name="cgpa" id="cgpa"placeholder="CGPA" step="any">
+            <input type="number" name="cgpa" id="cgpa" placeholder="CGPA" step="any">
             <select name="research" id="research">
-  <option value="yes">Yes</option>
-  <option value="no">No</option>
-</select>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
             <input type="submit" value="Predict">
         </form>
     </div>
